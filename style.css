@@ -1,0 +1,105 @@
+
+body{
+   
+    background-color: gray;
+    }
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#sidebar {
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    
+    position: fixed;
+    left: 0px; /* Initially visible */
+    transition: left 0.3s ease; /* Smooth transition */
+  }
+ 
+  #toggleButton {
+    position: absolute;
+    top: 20px;
+    margin-left: 20px; /* Positioned relative to the main content */
+  }
+.head{
+    padding: 20px;
+}
+.bar-toggle  :hover{
+    cursor: pointer;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+
+}
+#toggle :hover{
+    cursor: pointer;
+}
+.details p{
+
+    margin: 10px;
+    
+}
+.des{
+    padding: 10px;
+
+    margin: 10px;
+}
+.des #read{
+    cursor: pointer;
+    color: burlywood;
+    text-decoration: none;
+   margin-top: 10px;
+}
+.des p{
+    margin: 10px;
+}
+
+.btn button{
+
+    margin-left: 10px;
+
+    padding: 10px;
+    cursor: pointer;
+
+}
+.btn-1{
+    background-color: burlywood;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+
+}
+#toggle{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.btn button:hover{
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+.read-more{
+
+    display:none;
+
+}
+.btn{
+    display: flex;
+}
+
+.btn-2{
+    color: burlywood;
+    border-radius: 5px;
+    border: 1px solid burlywood;
+    font-weight: 700;
+   
+}
