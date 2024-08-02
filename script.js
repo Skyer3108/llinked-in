@@ -36,8 +36,10 @@ toggle.addEventListener('click',()=>{
 
 toggleButton.addEventListener('click',()=>{
 
-    if(sidebar.style.left==='-300px'){
+    if(sidebar.style.left==='-300px' || sidebar.style.left === "-100%"){
         sidebar.style.left = "0px";
+    } else {
+        sidebar.style.left = "-300px";
     }
 
 })
