@@ -16,7 +16,7 @@ body{
     
     position: fixed;
     left: 0px; /* Initially visible */
-    transition: left 0.3s ease; /* Smooth transition */
+    transition: left 0.7s ease; /* Smooth transition */
   }
  
   #toggleButton {
